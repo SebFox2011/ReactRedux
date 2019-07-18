@@ -1,5 +1,5 @@
 import {connect} from "react-redux";
-import {itemAdd} from "../actions/todo";
+import {itemRemove} from "../actions/todo";
 import ListItems from "../components/ListItems"
 
 const mapStateToProps = state => ({
@@ -7,7 +7,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-    add: item => dispatch(itemAdd(item)),
+    remove: item => dispatch(itemRemove(item)),
 });
 
 export default connect (

@@ -14,7 +14,7 @@ function todoApp(state=initialState,action) { //etat initial de l'applicaiton in
             return {items:[...state.items,action.payload]}; // ...state.item est un tableau
                                                             // : est equivalent à == mais pour un objet
         case ITEM_REMOVE:
-            return {items:[state.items.filter(i => i !== action.payload)]};
+            return {items:state.items.filter(i => i !== action.payload)};
 
         default:
             return state;
