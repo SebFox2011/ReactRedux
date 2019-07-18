@@ -12,4 +12,6 @@ Création du répertoire actions avec todo.js pour les constantes
 
 Création du répertoire reducer avec todo.js pour les reducers
 
+Création du répertoire containers avec ListItems.js pour les containers
+
 ## Config
