@@ -1,7 +1,7 @@
 import {ITEM_ADD,ITEM_REMOVE} from "../actions/todo";
 
 const initialState = { //initialisation à vide des items
-    items:[]
+    items:[] // state.todoApp.items pour récupérer les items
 };
 
 function todoApp(state=initialState,action) { //etat initial de l'applicaiton initialisé a initialState par défaurt
