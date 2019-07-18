@@ -1,9 +1,9 @@
 import {connect} from "react-redux";
-import {ITEM_ADD, ITEM_REMOVE, itemAdd} from "../actions/todo";
-import {declareExportDeclaration} from "@babel/types";
+import {itemAdd} from "../actions/todo";
+import ListItems from "../components/ListItems"
 
 const mapStateToProps = state => ({
-    items: state.todoApp.items
+    items: state.todo.items
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -13,4 +13,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect (
     mapStateToProps,
     mapDispatchToProps
-)(Dashboards)
+)(ListItems)
