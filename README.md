@@ -6,4 +6,6 @@ npx create-react-app todo-app
 Installationde react-redux
 npm i redux react-redux
 
-## 
+## Configuration
+
+Création du répertoire actions avec todo.js pour les constantes
