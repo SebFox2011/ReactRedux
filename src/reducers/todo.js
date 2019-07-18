@@ -16,3 +16,5 @@ function todoApp(state=initialState,action) { //etat initial de l'applicaiton in
             return state;
     }
 }
+
+export default todoApp();
