@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ListItems from "./containers/ListItems";
+import FormNewItem from"./containers/FormNewItem"
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </header>
       <div>
         <ListItems/>
+      </div>
+      <div>
+        <FormNewItem/>
       </div>
     </div>
   );
