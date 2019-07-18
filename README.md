@@ -15,3 +15,6 @@ Création du répertoire reducer avec todo.js pour les reducers
 Création du répertoire containers avec ListItems.js pour les containers
 
 ## Config
+
+
+Fin du projet
